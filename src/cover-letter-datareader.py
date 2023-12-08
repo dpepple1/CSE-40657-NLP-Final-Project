@@ -5,6 +5,8 @@ import torch
 import os
 
 
+#cover-letter-dataset
+
 class CoverLetter(Dataset):  
     def __init__(self, df, control_code, truncate=False, gpt2_type="gpt2", max_length=1024):
 
@@ -41,3 +43,6 @@ def split_johns(df):
 if __name__ == '__main__':
     train = get_data('data/cover-letter-dataset', 'train.csv')
     dataset = CoverLetter(train, train['Cover Letter'], truncate=True, gpt2_type="gpt2")
+
+
+
