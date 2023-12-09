@@ -15,7 +15,7 @@ class CoverLetterDataset(Dataset):
         for itr, row in  df.iterrows():
             prompt = row['Prompt']
             letter = row['Cover Letter']
-            data = prompt + letter
+            data = prompt + letter + "<|endoftext|>"
 
             self.data_pairs.append(data)
 
@@ -39,15 +39,14 @@ def split_johns(df):
     return df[df['Applicant Name'] == 'John Smith'], df[df['Applicant Name'] != 'John Smith']
 
 def build_prompt(work_experience, qualifications, company, job_title, skills,):
-    prompt = "<|start|>"
-
+    prompt = ''
     prompt += f' <|workexperience|> {work_experience} <|endofworkexperience|>'
     prompt += f' <|qualifications|> {qualifications} <|endofqualifications|>'
     prompt += f' <|company|> {company} <|endofcompany|>'
     prompt += f' <|jobtitle|> {job_title} <|endofjobtitle|>'
     prompt += f' <|skills|> {skills} <|endofskills|>'
 
-    prompt += f' <|endoftext|> Dear Hiring Manager,\n' #Not sure if we want this \n here
+    #prompt += f' Dear Hiring Manager,\n' #Not sure if we want this \n here
 
     return prompt
 

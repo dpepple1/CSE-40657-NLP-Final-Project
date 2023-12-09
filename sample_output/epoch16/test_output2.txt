@@ -1,0 +1,16 @@
+ <|workexperience|> Data Scientist at DEF Company <|endofworkexperience|> <|qualifications|> Excellent English written and verbal communication skills
+Exceptional interpersonal skills including teamwork, facilitation, and negotiation
+Industry experience in a full-stack programming language, preferably Scala, GoLang, Python, or similar
+Experience with R, SAS, Stata, or similar tools in the context of machine learning algorithms
+Experience in designing systems for production environments <|endofqualifications|> <|company|> XYZ Corporation <|endofcompany|> <|jobtitle|>  Data Scientist <|endofjobtitle|> <|skills|> Python, R, Scala, machine learning algorithms, data collection, communication skills <|endofskills|> Dear Hiring Manager, 
+
+I am writing to express my interest in the Data Scientist position at XYZ Corporation. With my strong background in data analysis and my strong experience in the production environment, I believe I would be a valuable asset to your team.
+
+I hold a Bachelor's degree in Computer Science and have a strong understanding of Python, R, and Scala. I am proficient in Scala, and have a strong understanding of machine learning algorithms. I am proficient in writing and communicating code, and have a strong understanding of problem-solving skills.
+
+I am excited about the opportunity to join the Data Scientist team at XYZ Corporation and contribute to your team's success. I am confident that my skills and experience make me a valuable asset to your team.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how my skills and qualifications align with the needs of the Data Scientist position at XYZ Corporation.
+
+Sincerely,
+John Smith<|endoftext|>|workex

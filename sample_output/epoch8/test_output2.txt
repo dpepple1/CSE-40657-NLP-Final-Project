@@ -1,0 +1,20 @@
+ <|workexperience|> Data Scientist at DEF Company <|endofworkexperience|> <|qualifications|> Excellent English written and verbal communication skills
+Exceptional interpersonal skills including teamwork, facilitation, and negotiation
+Industry experience in a full-stack programming language, preferably Scala, GoLang, Python, or similar
+Experience with R, SAS, Stata, or similar tools in the context of machine learning algorithms
+Experience in designing systems for production environments <|endofqualifications|> <|company|> XYZ Corporation <|endofcompany|> <|jobtitle|>  Data Scientist <|endofjobtitle|> <|skills|> Python, R, Scala, machine learning algorithms, data collection, communication skills <|endofskills|> Dear Hiring Manager, 
+
+I am writing to express my interest in the Data Scientist position at XYZ Corporation. I am a qualified Data Scientist at DEF Company and have a passion for machine learning algorithms. I am proficient in Python, R, and have a strong understanding of Scala and Stata.
+
+I have a strong understanding of machine learning algorithms and have worked with companies such as DEF Company and have developed and implemented a set of algorithms for complex data analysis. I am proficient in Scala and have a strong understanding of Stata and my ability to collaborate with other teams.
+
+I am a strong advocate for data science and have a deep understanding of the data science industry. I am excited about the opportunity to contribute to the advancement of the industry.
+
+Thank you for considering my application. I look forward to the next steps in my career.
+
+Sincerely,
+John Smith<|endoftext|>From RogueBasics
+
+Title: Battle Royale (Normal)
+
+Strategy: Build your own strategy and then

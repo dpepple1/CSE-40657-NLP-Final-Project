@@ -1,0 +1,12 @@
+ <|workexperience|> Generative AI Engineer at Apple for 3 years <|endofworkexperience|> <|qualifications|> PhD in AI <|endofqualifications|> <|company|> Facebook <|endofcompany|> <|jobtitle|> Generative AI Engineer <|endofjobtitle|> <|skills|> Python, C++, AI, Machine Learning, Generative Models <|endofskills|> Dear Hiring Manager, 
+The term "generative" has become synonymous with "procedural", but this term is not necessarily synonymous with "procedural". In fact, this term is used by many times, and is used by many people in the most often used terms.
+
+"Procedural" is a term that refers to the number of steps taken by a program to solve a problem. The more common "procedural" is used by many programmers.
+
+"Procedural" is a term that refers to the number of steps that a program takes to solve a problem. The more common "procedural" is used by many programmers.
+
+"Procedural" is used by many programmers.
+
+"Generative" is a term that refers to the number of steps that a program takes to solve a problem. The more common "procedural" is used by many programmers.
+
+"Generative" is a term that refers to the number of steps

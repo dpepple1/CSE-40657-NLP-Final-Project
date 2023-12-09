@@ -51,8 +51,10 @@ def train(dataset, lm, batch_size=16, epochs=5, lr=2e-5,
 
     loader = DataLoader(dataset, batch_size=1, shuffle=True)
 
-    #device = torch.device("cuda")
-    #self.model = self.model.cuda()
+    device = torch.device("cuda")
+    
+    lm.model = lm.model.cuda()
+
     lm.model.train()
     optimizer = AdamW(lm.model.parameters(), lr=lr)
     scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=warmup_steps, num_training_steps=-1)
@@ -75,14 +77,14 @@ def train(dataset, lm, batch_size=16, epochs=5, lr=2e-5,
             
             tokenized = torch.tensor(lm.tokenize(text))
             #tokenized = self.tokenizer.encode(text)
-            #tokenized = tokenized_prompt.to(device)
+            tokenized = tokenized.to(device)
             #print(type(tokenized), tokenized)
 
             (input_tensor, carry_on, remainder) = lm.pack_tensor(tokenized, input_tensor, 768) #arbitraty 768
             if carry_on and idx != len(loader) - 1:
                 continue
 
-            #input_tensor = input_tensor.to(device)
+            input_tensor = input_tensor.to(device)
 
             outputs = lm.model(input_tensor, labels=input_tensor)
             loss = outputs[0]
@@ -97,22 +99,21 @@ def train(dataset, lm, batch_size=16, epochs=5, lr=2e-5,
             batch_count += 1 
             input_tensor = None
 
-            if save_model_on_epoch:
-                torch.save(
-                    model.state_dict(),
-                    os.path.join('trained_models', f'trained-gpt2--{epoch}.pt')
-                )
+        if save_model_on_epoch:
+            torch.save(
+                lm.model.state_dict(),
+                os.path.join('trained_models', f'trained-gpt2--{epoch}.pt')
+            )
 
-            #if idx > 10:
-            #    break
-
-        validate(lm)
+        lm.model = lm.model.to('cpu')
+        validate(lm, epoch)
+        lm.model = lm.model.cuda()
 
     
             #keep reading here: https://gist.github.com/mf1024/3df214d2f17f3dcc56450ddf0d5a4cd7
 
 
-def validate(lm):
+def validate(lm, epoch):
     df = cld.get_data('data/cover-letter-dataset', 'test.csv')
     df = cld.add_prompts(df)
 
@@ -122,10 +123,11 @@ def validate(lm):
     
     for idx, row in df.iterrows():
 
-        if idx > 15:
+        if idx > 5:
             break
             
         prompt = row['Prompt']
+        prompt += ' Dear Hiring Manager, \n'
         
         q = lm.start()
         prev = lm.bos()
@@ -152,9 +154,13 @@ def validate(lm):
 
         output = ''.join(output)
 
-        file_path = os.path.join(output_folder, f'test_output{idx}.txt')
+        folder_path = os.path.join(output_folder, f'epoch{epoch}')
+        if not os.path.exists(folder_path):
+            os.mkdir(folder_path)
+
+        file_path = os.path.join(folder_path, f'test_output{idx}.txt')
         with open(file_path, 'w') as fh:
-            fh.write('Dear Hiring Manager\n' + output + '\n')
+            fh.write(prompt + output + '\n')
 
 if __name__ == "__main__":
 
@@ -163,4 +169,8 @@ if __name__ == "__main__":
     dataset = cld.CoverLetterDataset(df)
 
     lm = gpt.LanguageModel('gpt2', 'cpu')
-    train(dataset, lm)
+    train(dataset, lm, epochs=20, save_model_on_epoch=True)
+
+
+#IDEAS:
+# ADD <|endoftext|> to the end of the training data.

@@ -1,0 +1,14 @@
+ <|workexperience|> Machine Learning Engineer at DEF Company <|endofworkexperience|> <|qualifications|> BSc focused on data Science/computer Science/engineering
+4+ years experience Developing and shipping production grade machine learning systems
+2+ years building and shipping data Science based personalization services and recommendation systems
+experience in data Science or machine learning engineering
+Strong analytical and data Science skills <|endofqualifications|> <|company|> XYZ Corporation <|endofcompany|> <|jobtitle|>  Data Scientist <|endofjobtitle|> <|skills|> Python, R, scikit-learn, Keras, Tensorflow <|endofskills|> Dear Hiring Manager, 
+
+I am writing to express my interest in the Data Scientist position at XYZ Corporation. With my strong analytical and data science background, I believe I am well-suited for this role. I have a proven track record of building and shipping machine learning systems and have a proven track record of using them in my projects. I am excited about the opportunity to contribute to XYZ Corporation and contribute to the success of my company has in the field.
+
+I am excited about the opportunity to contribute to the success of XYZ Corporation and contribute to the success of your company. I am confident that my skills and qualifications make me a strong candidate for this role.
+
+I am excited about the opportunity to contribute to the success of XYZ Corporation and contribute to the success of your company. I am excited about the opportunity to contribute to XYZ Corporation and contribute to your team. Thank you for considering my application.
+
+Sincerely,
+John Smith<|endoftext|>|workexperience

@@ -1,0 +1,33 @@
+ <|workexperience|> Generative AI Engineer at Apple for 3 years <|endofworkexperience|> <|qualifications|> PhD in AI <|endofqualifications|> <|company|> Facebook <|endofcompany|> <|jobtitle|> Generative AI Engineer <|endofjobtitle|> <|skills|> Python, C++, AI, Machine Learning, Generative Models <|endofskills|> Dear Hiring Manager, 
+Sincerely, *not* -------------- <|endofjobtitle|> M.A. *not* -------------- <|endofjobtitle|>
+** Hiring Manager, Sincerely, *not* -------------- <|endofjobtitle|>
+
+** *workbook|
+
+** <|endofjobtitle|>
+
+** *lastupdated|
+
+** <|endofjobtitle|>
+
+** *
+** *contributor|
+
+** <|endofjobtitle|>
+
+
+** <|endofjobtitle|> <|endofjobtitle|> <|endofjobtitle|>
+
+
+** *jobtitle|
+
+** <|endofjobtitle|>
+
+** <|endofjobtitle|>
+
+
+** <|endofjobtitle|>
+
+** <|endofjobtitle|>
+
+** <|end

@@ -1,0 +1,40 @@
+ <|workexperience|> Machine Learning Engineer at DEF Company <|endofworkexperience|> <|qualifications|> BSc focused on data Science/computer Science/engineering
+4+ years experience Developing and shipping production grade machine learning systems
+2+ years building and shipping data Science based personalization services and recommendation systems
+experience in data Science or machine learning engineering
+Strong analytical and data Science skills <|endofqualifications|> <|company|> XYZ Corporation <|endofcompany|> <|jobtitle|>  Data Scientist <|endofjobtitle|> <|skills|> Python, R, scikit-learn, Keras, Tensorflow <|endofskills|> Dear Hiring Manager, 
+Frequently Asked Questions and Answers
+
+<|workexperience|>
+
+<|qualifications|>
+
+<|workexperience|>
+
+<|workexperience|>
+
+<|workexperience|>
+
+<|endofworkexperience|>
+
+<|workexperience|>
+
+<|workexperience|>
+
+<|workexperience|>
+
+<|workexperience|>
+
+<|workexperience|>
+
+<|endofworkexperience|>
+
+
+<|workexperience|>
+
+<|endofworkexperience|>
+
+<|workexperience|>
+
+
+<|workexperience

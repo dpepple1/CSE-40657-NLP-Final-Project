@@ -1,0 +1,11 @@
+ <|workexperience|> Generative AI Engineer at Apple for 3 years <|endofworkexperience|> <|qualifications|> PhD in AI <|endofqualifications|> <|company|> Facebook <|endofcompany|> <|jobtitle|> Generative AI Engineer <|endofjobtitle|> <|skills|> Python, C++, AI, Machine Learning, Generative Models <|endofskills|> Dear Hiring Manager, 
+I am writing to express my interest in the Generative AI Engineer position at Facebook. With my strong background in AI and machine learning, I believe I would be a valuable addition to your team.
+
+In my current position as a Generative AI Engineer at Facebook, I have successfully demonstrated how to effectively drive AI in-game AI and successfully integrate AI models into user experiences. I have also gained experience with Python and C++, and have successfully applied machine learning techniques to solve complex problems.
+
+I am excited about the opportunity to contribute to Facebook and the world of AI. I am confident that my skills and experience make me a strong candidate for this position.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how my skills and experience align with your company's goals.
+
+Sincerely,
+John Smith<|endoftext|>|workexperience|> <|qualifications|> Bachelor's degree in Computer Science or related field (Ph.D

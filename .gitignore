@@ -1,1 +1,3 @@
 data/job-posting-dataset/**/*
+src/__pycache__
+trained_models

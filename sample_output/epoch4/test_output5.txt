@@ -1,0 +1,19 @@
+ <|workexperience|> Senior Database Administrator at Google (5 years) <|endofworkexperience|> <|qualifications|> Experience with big data technologies <|endofqualifications|> <|company|> Amazon <|endofcompany|> <|jobtitle|> Senior Database Administrator <|endofjobtitle|> <|skills|> Big Data Technologies, SQL, Database Management, Performance Tuning <|endofskills|> Dear Hiring Manager, 
+Thank you for your interest in my role as Senior Database Administrator at Amazon. I am pleased to have you join my team at <|endofjobtitle|> as a Senior Database Administrator. I am excited to see your leadership and passion for your company.
+
+Thank you for your interest in joining my team. I look forward to your continued success.
+
+Sincerely,
+
+Scott
+
+<|endofjobtitle|>
+
+In the last year, I have completed my master's degree in Data Management at Google. I have a strong technical background and have a strong background in SQL and SQL Server. I am confident that my skills and experience will help me in the future. I am excited to join the team at <|endofjobtitle|> at Amazon.
+
+Sincerely,
+
+Scott
+<|endofjobtitle|>
+
+In my last year at Google, I have worked on a large database management role at Amazon. I
