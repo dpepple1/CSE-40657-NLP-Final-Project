@@ -18,7 +18,7 @@ if __name__ == '__main__':
     #cleanse_html(df)
     befouh = df.iloc[0]['Resume_html']
     df = cleanse_html(df)
-    aftah = df.iloc[0]['Resume']
+    aftah = df.iloc[0]['Resume_str']
     print(aftah)
-    #WALTAH
+
 
