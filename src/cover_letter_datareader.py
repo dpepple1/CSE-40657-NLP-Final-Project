@@ -3,8 +3,28 @@ from transformers import GPT2LMHeadModel, GPT2Tokenizer
 from torch.utils.data import Dataset, DataLoader
 import torch
 import os
+from tqdm import tqdm, trange
 
 # File That Reads in and Processes the cover-letter-dataset
+
+class CoverLetterDataset(Dataset):
+    def __init__(self, df):
+        super().__init__()
+
+        self.data_pairs = []    
+        for itr, row in  df.iterrows():
+            prompt = row['Prompt']
+            letter = row['Cover Letter']
+            data = prompt + letter
+
+            self.data_pairs.append(data)
+
+    def __len__(self):
+        return len(self.data_pairs)
+
+    def __getitem__(self, item):
+        return self.data_pairs[item]
+
 
 def get_data(data_dir, data_file):
     path = os.path.join(data_dir, data_file)
@@ -48,7 +68,5 @@ def add_prompts(df):
 if __name__ == '__main__':
     df = get_data('data/cover-letter-dataset', 'train.csv')
     df = add_prompts(df)
-
-    print(df['Prompt'])
-
+    dataset = CoverLetterDataset(df)
 
