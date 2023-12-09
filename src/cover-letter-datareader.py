@@ -4,29 +4,7 @@ from torch.utils.data import Dataset, DataLoader
 import torch
 import os
 
-
-#cover-letter-dataset
-
-class CoverLetter(Dataset):  
-    def __init__(self, df, control_code, truncate=False, gpt2_type="gpt2", max_length=1024):
-
-        self.tokenizer = GPT2Tokenizer.from_pretrained(gpt2_type)
-        self.letter = []
-
-        for row in df['Cover Letter']:
-          self.letter.append(torch.tensor(
-                self.tokenizer.encode(f"<|{control_code}|>{row[:max_length]}<|endoftext|>")
-            ))               
-        if truncate:
-            self.letter = self.letter[:20000]
-        self.letter_count = len(self.letter)
-        
-    def __len__(self):
-        return self.letter_count
-
-    def __getitem__(self, item):
-        return self.letter[item]
-    
+# File That Reads in and Processes the cover-letter-dataset
 
 def get_data(data_dir, data_file):
     path = os.path.join(data_dir, data_file)
@@ -40,9 +18,37 @@ def split_johns(df):
     '''
     return df[df['Applicant Name'] == 'John Smith'], df[df['Applicant Name'] != 'John Smith']
 
-if __name__ == '__main__':
-    train = get_data('data/cover-letter-dataset', 'train.csv')
-    dataset = CoverLetter(train, train['Cover Letter'], truncate=True, gpt2_type="gpt2")
+def build_prompt(work_experience, qualifications, company, job_title, skills,):
+    prompt = "<|start|>"
 
+    prompt += f' <|workexperience|> {work_experience} <|endofworkexperience|>'
+    prompt += f' <|qualifications|> {qualifications} <|endofqualifications|>'
+    prompt += f' <|company|> {company} <|endofcompany|>'
+    prompt += f' <|jobtitle|> {job_title} <|endofjobtitle|>'
+    prompt += f' <|skills|> {skills} <|endofskills|>'
+
+    prompt += f' <|endoftext|> Dear Hiring Manager,\n' #Not sure if we want this \n here
+
+    return prompt
+
+def build_prompt_from_row(row):
+    prompt = build_prompt(row['Current Working Experience'],
+            row['Preferred Qualifications'],
+            row['Hiring Company'],
+            row['Job Title'],
+            row['Skillsets'] )
+
+    return prompt
+
+def add_prompts(df):
+    df['Prompt'] = df.apply(lambda x: build_prompt_from_row(x), axis=1)
+    return df
+
+
+if __name__ == '__main__':
+    df = get_data('data/cover-letter-dataset', 'train.csv')
+    df = add_prompts(df)
+
+    print(df['Prompt'])
 
 
