@@ -4,8 +4,16 @@ Knowledge of application architecture and experience deploying code via CI/CD pi
 Track record of building production-grade maintainable backend services
 Strong problem-solving skills and ability to make decisions on suitable tools and solutions <|endofqualifications|> <|company|> XYZ Tech Solutions <|endofcompany|> <|jobtitle|>  Data Scientist <|endofjobtitle|> <|skills|> Python, Go, data analysis, machine learning, problem-solving, teamwork <|endofskills|> Dear Hiring Manager, 
 
-I am writing to express my interest in the Data Scientist position at XYZ Tech Solutions. I am passionate about Python, data analysis, and machine learning. I have a strong interest in machine learning and have a strong understanding of the programming language and its strengths and weaknesses. I am well-versed in machine learning and have a strong understanding of the data and tools used to build and deploy applications. I am also well-versed in the software development environment and have a strong understanding of the user experience and the technical challenges that face in the development of a software product. I am excited about my qualifications and am looking forward to the opportunity to work with you.
+I am writing to express my interest in the Data Scientist position at XYZ Tech Solutions. I am a strong mathematical and data scientist with strong Python skills and a strong understanding of the tools and solutions required to effectively manage data.
 
-I am also interested in the following areas:
+I am excited about the opportunity to join a team that enables me to contribute to the success of XYZ Tech Solutions. I am confident that my skills and qualifications make me a strong candidate for this role.
 
-The Data Scientist position at XYZ Tech Solutions. I have a strong background in data analysis and machine learning and have a strong understanding of the data and tools used to build and deploy applications. I am well-versed in the software development environment and have a strong
+I am confident that my skills and experience make me a strong candidate for this role.
+
+Thank you for considering my application.
+
+Sincerely,
+
+Joe Zhang<|endoftext|>WASHINGTON (Reuters) - U.S. President Donald Trump on Tuesday signed an executive order to expand the use of drones and other types of surveillance technologies to include unmanned aircraft, including the use of unmanned aircraft.
+
+Trump's order also directs the Pentagon to make a plan for how to deal with threats posed by U.S. allies, including ISIS, in

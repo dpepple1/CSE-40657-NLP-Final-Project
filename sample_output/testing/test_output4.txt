@@ -1,0 +1,14 @@
+ <|workexperience|> Senior Support Engineer at DEF Corp for 4 years <|endofworkexperience|> <|qualifications|> 7+ years of experience in IT Support <|endofqualifications|> <|company|> GHI Corp <|endofcompany|> <|jobtitle|> Senior Support Engineer <|endofjobtitle|> <|skills|> IT Support, Network Administration, Customer Service <|endofskills|> Dear Hiring Manager, 
+
+<START>
+
+I am writing to express my interest in the Senior Support Engineer position at GHI Corp. With my strong background in IT support, network administration, and customer service, I believe I am well-suited for this role.
+
+In my current role as Senior Support Engineer at DEF Corp, I have successfully supported a large group of customers and have provided leadership and technical support to the company. I am proficient in Python, SQL, and have a proven track record of delivering high-quality IT solutions. I am a dedicated individual and am confident that my skills and experience make me a strong candidate for this role.
+
+I am excited about the opportunity to join GHI Corp and contribute to the company's success. I am confident that my experience, dedication, and commitment to customer service will make me a valuable asset to your team.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how my skills and qualifications align with your company's needs.
+
+Sincerely,
+John Smith

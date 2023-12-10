@@ -1,9 +1,13 @@
  <|workexperience|> Senior Database Administrator at Google (5 years) <|endofworkexperience|> <|qualifications|> Experience with big data technologies <|endofqualifications|> <|company|> Amazon <|endofcompany|> <|jobtitle|> Senior Database Administrator <|endofjobtitle|> <|skills|> Big Data Technologies, SQL, Database Management, Performance Tuning <|endofskills|> Dear Hiring Manager, 
+I am writing to express my interest in the role of the Database Administrator at Amazon. With my strong background in database management and a strong foundation in SQL, I believe I would be a valuable addition to your team.
 
-I am writing to express my interest in the Senior Database Administrator position at Amazon. With my strong background in data analysis and my experience with big data technologies, I believe I am well-suited for this role.
+I am proficient in SQL, and have a strong foundation in SQL. I am proficient in using SQL databases to analyze data and deliver efficient, timely and efficient results. I am also a dedicated and dedicated team player, who enjoys working with a team. I am confident that my skills and experience make me a strong candidate for this role.
 
-In my current role as a Senior Database Administrator at Google, I have successfully implemented complex data management strategies to drive the success of Amazon's database. I have also been involved in product development and data retrieval and have successfully implemented complex data management strategies.
+Thank you for considering my application. I look forward to the opportunity to contribute to your team. I look forward to the opportunity to discuss how my skills and qualifications align with Amazon's requirements.
 
-I hold a Bachelor's degree in Computer Science and have a strong background in data analysis and database management. I am proficient in SQL, which enables me to effectively analyze data and interpret data. I am proficient in SQL Server, which allows me to effectively manage complex data management strategies.
+Thank you for considering my application. I look forward to the opportunity to discuss how my skills and qualifications align with Amazon's requirements.
 
-I am a passionate advocate for data security and have a strong interest in data analysis and data retrieval. I am excited about the opportunity to contribute to the development of Amazon's database and believe that my experience as a Senior Database Administrator
+Sincerely,
+John Smith<|endoftext|>[image via Shutterstock]
+
+In a bid to

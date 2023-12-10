@@ -1,19 +1,13 @@
  <|workexperience|> Senior Database Administrator at Google (5 years) <|endofworkexperience|> <|qualifications|> Experience with big data technologies <|endofqualifications|> <|company|> Amazon <|endofcompany|> <|jobtitle|> Senior Database Administrator <|endofjobtitle|> <|skills|> Big Data Technologies, SQL, Database Management, Performance Tuning <|endofskills|> Dear Hiring Manager, 
-Thank you for your interest in my role as Senior Database Administrator at Amazon. I am pleased to have you join my team at <|endofjobtitle|> as a Senior Database Administrator. I am excited to see your leadership and passion for your company.
 
-Thank you for your interest in joining my team. I look forward to your continued success.
+I am writing to express my appreciation to you for your leadership role at Google. I am a software engineer at Google, a Senior Database Administrator at Amazon, and I am excited to join your team. I am excited about your experience as a Senior Database Administrator at Google.
 
-Sincerely,
-
-Scott
-
-<|endofjobtitle|>
-
-In the last year, I have completed my master's degree in Data Management at Google. I have a strong technical background and have a strong background in SQL and SQL Server. I am confident that my skills and experience will help me in the future. I am excited to join the team at <|endofjobtitle|> at Amazon.
+I am excited about your contributions to our Data Science team and my strong commitment to your team. I am confident that you will help improve our Data Science and Database Management teams. I am excited about your leadership style and your willingness to learn new skills. I look forward to your continued support.
 
 Sincerely,
 
-Scott
-<|endofjobtitle|>
+James<|endoftext|>The Google search engine is getting a lot of new users. It's used to help spread news, share photos, and play video games. It's also used to make content more accessible. And it's now used to find people to share news and videos.
 
-In my last year at Google, I have worked on a large database management role at Amazon. I
+But the company is also trying to make its content more accessible.
+
+Last month, Google released a new

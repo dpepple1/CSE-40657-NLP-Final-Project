@@ -1,0 +1,14 @@
+ <|workexperience|> Senior Java Developer at GHI Corp for 4 years <|endofworkexperience|> <|qualifications|> 6+ years of experience in Java <|endofqualifications|> <|company|> ABC Corp <|endofcompany|> <|jobtitle|> Senior Java Developer <|endofjobtitle|> <|skills|> Java, J2EE, Spring, Hibernate, SQL, AWS <|endofskills|> Dear Hiring Manager, 
+
+<START>
+
+I am writing to express my interest in the Senior Java Developer position at ABC Corp. With my strong background in Java and J2EE, I believe I am wellsuited for this role.
+
+I am excited about the opportunity to bring my strong skills and experience to ABC Corp's team and enhance the company's ability to deliver innovative solutions. I am confident that my skills and experience make me a strong candidate for this role.
+
+I am confident that my strong analytical skills and ability to analyze data and interpret data will be a valuable asset to ABC Corp's mission. I am confident that my strong technical skills and experience make me a strong candidate for this role.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how my skills and qualifications align with ABC Corp's mission.
+
+Sincerely,
+John Smith
