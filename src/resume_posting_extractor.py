@@ -7,6 +7,7 @@ from nltk import sent_tokenize, word_tokenize, PorterStemmer
 from nltk.corpus import stopwords    
 import nltk
 from cover_letter_datareader import CoverLetterDataset 
+import random
 
 nltk.download('punkt')
 
@@ -60,6 +61,11 @@ class Parser():
     def getTitle(self, posting):
         return posting['title']
 
+    def getName(self):
+        names = ['James Smith','Michael Smith', 'Robert Smith','Maria Garcia','Maria Rodriguez',
+                'David Smith','Mary Smith','Maria Hernandez','Maria Martinez','James Johnson']
+        index = random.randint(0,len(names))
+        return names[index]
 
 if __name__ == '__main__':
     resumeData = pd.read_csv('data/resume-dataset/Resume/Resume.csv')
@@ -81,5 +87,6 @@ if __name__ == '__main__':
     print(companyName)
     jobTitle = parser.getTitle(postingData.iloc[3])
     print(jobTitle)
-
+    name = parser.getName()
+    print(name)
     
