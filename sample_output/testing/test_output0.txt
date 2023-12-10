@@ -1,0 +1,12 @@
+ <|workexperience|> Senior Java Developer at ABC for 1 year <|endofworkexperience|> <|qualifications|> 5+ years of Java, Spring Boot <|endofqualifications|> <|company|> Walmart <|endofcompany|> <|jobtitle|> Senior Java Developer <|endofjobtitle|> <|skills|> Java, Spring Boot, Microservices, SQL, AWS <|endofskills|> Dear Hiring Manager, 
+
+<START>
+
+I am writing to express my interest in the Senior Java Developer position at Walmart. With my strong background in Java, Spring Boot, and AWS, I believe I am wellsuited for this role.
+
+I am proficient in Java, Spring Boot, and AWS, and have over 5 years of experience in developing software products. I have a Bachelor's degree in Computer Science and have worked at Microsoft, Google, and Apple. I am confident that my skills and qualifications make me a strong candidate for this role.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how my skills and qualifications align with Walmart's mission of delivering high-quality products to the most demanding customers.
+
+Sincerely,
+John Smith

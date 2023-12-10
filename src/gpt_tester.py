@@ -28,7 +28,7 @@ def top_p(probs, p):
 
 
 lm = gpt.LanguageModel('gpt2', 'cpu')
-lm.model.load_state_dict(torch.load('trained_models/trained-gpt2--0.pt'))
+lm.model.load_state_dict(torch.load('trained_models/trained-gpt2--10.pt'))
 
 df = cld.get_data('data/cover-letter-dataset', 'test.csv')
 df = cld.add_prompts(df)

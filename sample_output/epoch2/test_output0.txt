@@ -3,7 +3,4 @@
 2+ years building and shipping data Science based personalization services and recommendation systems
 experience in data Science or machine learning engineering
 Strong analytical and data Science skills <|endofqualifications|> <|company|> XYZ Corporation <|endofcompany|> <|jobtitle|>  Data Scientist <|endofjobtitle|> <|skills|> Python, R, scikit-learn, Keras, Tensorflow <|endofskills|> Dear Hiring Manager, 
-
-Q: Hi,
-
-I am a data scientist at XYZ Corporation. I am a data scientist at DEF Company. I am a data scientist at DEF Company. I am a data scientist at DEF Company. I am a data scientist at DEF Company. I am a data scientist at DEF Company. I am a data scientist at DEF Company. I am a data scientist at DEF Company. I am a data scientist at DEF Company. I am a data scientist at DEF Company. I am a data scientist at DEF Company. I am a data scientist at DEF Company. I am a data scientist at DEF Company. I am a data scientist at DEF Company. I am a data scientist at DEF Company. I am a data scientist at DEF Company. I am a data scientist at DEF Company. I am a data scientist at DEF Company. I am a data scientist at DEF Company. I am a data scientist at DEF Company. I am a data scientist at DEF Company. I am a
+<|jobtitle|> <|jobtype|> Data Scientist <|endofjobtype|> <|company| XYZ Corporation <|jobtype|> Data Scientist <|endofjobtype|> <|company| XYZ Corporation <|jobtype|> <|company| XYZ <|jobtype|> <|endofjobtitle|> <|jobtype|> Python, R, Tensorflow, Keras, Tensorflow <|> <|endofjobtitle|> <|skills|> <|jobtype|> <|job|> <|company| XYZ Corporation <|jobtype|> <|endofjobtitle|> <|jobtype|> Python, R, Tensorflow, Keras, Tensorflow <|> <|endofjobtitle|> <|jobtype|> Data Scientist <|endofjobtitle|> <|jobtype|>

@@ -3,12 +3,12 @@ Exceptional interpersonal skills including teamwork, facilitation, and negotiati
 Industry experience in a full-stack programming language, preferably Scala, GoLang, Python, or similar
 Experience with R, SAS, Stata, or similar tools in the context of machine learning algorithms
 Experience in designing systems for production environments <|endofqualifications|> <|company|> XYZ Corporation <|endofcompany|> <|jobtitle|>  Data Scientist <|endofjobtitle|> <|skills|> Python, R, Scala, machine learning algorithms, data collection, communication skills <|endofskills|> Dear Hiring Manager, 
-As an engineering and data scientist you are well versed in both Scala and GoLang, GoLang, and Python. You have the necessary skills and experience to handle a wide range of technical tasks.
-Your experience in the field of machine learning will help you become a better data scientist.
-You will also be able to work with many other data scientists and data scientists from around the world.
-You will be able to learn a wide range of technical skills including machine learning, machine learning, analysis, and analysis, and computer vision.
-You will be able to work with data scientists and data scientists from around the world.
-You will be able to develop and develop a broad range of technical skills including machine learning, machine learning, and machine learning.
-You will be able to contribute to the data science community.
-You will be able to work with data scientists and data scientists from around the world.
-You will be able to develop and develop a broad range of technical skills
+X
+A
+
+<|endofjobtitle|> Data Scientist <|endofjobtitle|> <|endofskills|> Python, R, Python, or similar software, in the context of machine learning algorithms <|endofskills|> <|endofjobtitle|> Data Scientist <|endofjobtitle|>
+
+<|endofskills|> Python, R, Python, or similar software, in the context of machine learning algorithms <|endofskills|> <|endofskills|> Python, R, Python, or similar software, in the context of machine learning algorithms
+<|endofskills|> <|endofskills|>
+
+<|endofskills|> Python, R, Python, or similar software, in the context of machine learning algorithms <|endofskills|> <|endofskills|> Python, R, Python,

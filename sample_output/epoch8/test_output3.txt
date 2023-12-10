@@ -1,14 +1,11 @@
  <|workexperience|> Generative AI Engineer at Apple for 3 years <|endofworkexperience|> <|qualifications|> PhD in AI <|endofqualifications|> <|company|> Facebook <|endofcompany|> <|jobtitle|> Generative AI Engineer <|endofjobtitle|> <|skills|> Python, C++, AI, Machine Learning, Generative Models <|endofskills|> Dear Hiring Manager, 
+I am writing to express my interest in the Generative AI Engineer position at Facebook. I have over a decade of experience in the field of AI and have a deep understanding of the technology and its needs. I am proficient in Python, C++, AI, and machine learning, and have a strong background in Generative AI. I am confident that my skills and experience make me a strong candidate for this role.
 
-I am writing to express my interest in the Generative AI Engineer position at Facebook. With a PhD in AI and a strong background in AI, I believe I am wellsuited for this role.
-
-I am passionate about data analysis and have a deep understanding of the role of AI in society. I am confident that my skills and experience make me a strong fit for this role.
-
-I am excited about the opportunity to work with Facebook and contribute to the advancement of AI research. I am confident that my skills and experience make me a strong candidate for this role.
-
-Thank you for considering my application. I look forward to the opportunity to discuss how my skills and experience align with Facebook's AI and Machine Learning goals.
+Thank you for considering the application. I look forward to the opportunity to discuss how I can contribute to the growing community of AI engineers.
 
 Sincerely,
-John Smith<|endoftext|>by John Lewis
+John Smith<|endoftext|>A large number of Democrats have said they would support President Donald Trump's agenda to cut taxes and make the economy more competitive.
 
-I am writing to express my interest in the opportunity to join the Institute for a Master's degree in Computer Science. I am excited about the opportunity to contribute to the field and contribute to
+In a recent op-ed for The Washington Post, the Democratic senator from Vermont pointed out how Trump's proposed tax cuts would disproportionately impact the middle class.
+
+"I think the problem is not the rich and poor," she said. "I believe that

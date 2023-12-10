@@ -166,6 +166,7 @@ if __name__ == "__main__":
 
     df = cld.get_data('data/cover-letter-dataset', 'train.csv')
     df = cld.add_prompts(df)
+    #johns, df = cld.split_johns(df)
     dataset = cld.CoverLetterDataset(df)
 
     lm = gpt.LanguageModel('gpt2', 'cpu')
