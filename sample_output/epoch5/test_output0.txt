@@ -2,46 +2,8 @@
 4+ years experience Developing and shipping production grade machine learning systems
 2+ years building and shipping data Science based personalization services and recommendation systems
 experience in data Science or machine learning engineering
-Strong analytical and data Science skills <|endofqualifications|> <|company|> XYZ Corporation <|endofcompany|> <|jobtitle|>  Data Scientist <|endofjobtitle|> <|skills|> Python, R, scikit-learn, Keras, Tensorflow <|endofskills|> Dear Hiring Manager, 
+Strong analytical and data Science skills <|endofqualifications|> <|company|> XYZ Corporation <|endofcompany|> <|jobtitle|>  Data Scientist <|endofjobtitle|> <|skills|> Python, R, scikit-learn, Keras, Tensorflow <|endofskills|> <|applicant|> John Smith <|endofapplicant|> Dear Hiring Manager, 
 
-I am writing to express my interest in your Data Scientist position. I am interested in the following positions:
+I am writing to express my interest in the Data Scientist position at XYZ Corporation. I am excited about the opportunity to contribute to the team of Data Scientist at XYZ Corporation. I am confident that my skills and experience in data science and machine learning make me a strong candidate for this role. I am excited about the opportunity to contribute to XYZ Corporation's mission of helping companies and communities achieve high quality results. I am confident that my qualifications and experience make me a strong candidate for this role.
 
-Machine Learning Engineer at XYZ Corporation
-
-Machine Learning Engineer at DEF Company
-
-Machine Learning Engineer at XYZ Corporation
-
-Machine Learning Engineer at Tensorflow
-
-Machine Learning Engineer at Keras
-Machine Learning Engineer at Tensorflow
-
-Machine Learning Engineer at Tensorflow
-
-Machine Learning Engineer at Tensorflow
-
-Machine Learning Engineer at Tensorflow
-
-Machine Learning Engineer at Tensorflow
-
-
-Machine Learning Engineer at Tensorflow
-
-Machine Learning Engineer at Tensorflow
-
-Machine Learning Engineer at Tensorflow
-
-Machine Learning Engineer at Tensorflow
-
-Machine Learning Engineer at Tensorflow
-
-Machine Learning Engineer at Tensorflow
-
-Machine Learning Engineer at Tensorflow
-
-Machine Learning Engineer at Tensorflow
-
-Machine Learning Engineer at Tensorflow
-
-Machine Learning Engineer at Tensorflow
+I am excited about the opportunity to contribute to XYZ Corporation's mission of helping companies and communities achieve high quality results. I am confident that my background in data science and machine learning make me a strong candidate for this role. I am confident that my technical skills and strong analytical and data skills make me a strong candidate for this role. I am confident that my technical skills and experience make me a strong candidate for this role. I am confident that my technical skills and strong analytical and data

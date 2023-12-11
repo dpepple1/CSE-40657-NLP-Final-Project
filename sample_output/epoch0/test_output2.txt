@@ -2,34 +2,25 @@
 Exceptional interpersonal skills including teamwork, facilitation, and negotiation
 Industry experience in a full-stack programming language, preferably Scala, GoLang, Python, or similar
 Experience with R, SAS, Stata, or similar tools in the context of machine learning algorithms
-Experience in designing systems for production environments <|endofqualifications|> <|company|> XYZ Corporation <|endofcompany|> <|jobtitle|>  Data Scientist <|endofjobtitle|> <|skills|> Python, R, Scala, machine learning algorithms, data collection, communication skills <|endofskills|> Dear Hiring Manager, 
-I am an engineer and a project manager at XYZ Corporation. I am interested in building a full-stack machine learning environment with the following tools:
-1. Human resources <|projectmgr|>
-2. In-depth understanding of machine learning algorithms and data processing
-3. Basic data processing
-4. Data processing skills
-5. Machine learning
-6. Scaling
-7. Data processing skills
-8. Programming skills
-9. Scaling skills
-10. Java or Java
-10. Python
-11. SQL
-11. Scala
-11. Python3. Data processing skills11. Data processing skills11. Data processing skills11..
-13. Data processing skills
-14. Data processing skills
-15. Scaling skills
-16. Scaling skills
-17. Data processing skills
-18. Machine learning skills
-19. Data processing skills
+Experience in designing systems for production environments <|endofqualifications|> <|company|> XYZ Corporation <|endofcompany|> <|jobtitle|>  Data Scientist <|endofjobtitle|> <|skills|> Python, R, Scala, machine learning algorithms, data collection, communication skills <|endofskills|> <|applicant|> John Smith <|endofapplicant|> Dear Hiring Manager, 
+<|endofcompany|>
 
-20. Data processing skills
+<|endofskills|><|endoftext|>Share. There's no reason to go back. There's no reason to go back.
 
-21. Machine learning skills
+There's no reason to go back.
 
-22. Machine learning skills
+The short-lived DC Comics movie "Logan" isn't the only film that went to Kickstarter.
 
+On Thursday, Disney announced that it will release the film's second film, which will be "Logan." The film, which will be available on Friday, will be released on Netflix.
 
+The film will be the second film in the DC Comics Cinematic Universe, after "Logan."
+
+The film will be released on April 11, 2017.
+
+Exit Theatre Mode
+
+Logan was originally released in the United States on July 20, but was also released in Canada on July 21, and was also released in the United Kingdom on September 3, 2017.
+
+Exit Theatre Mode
+
+Logan was originally released

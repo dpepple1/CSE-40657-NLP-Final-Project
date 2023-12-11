@@ -2,15 +2,14 @@
 4+ years experience Developing and shipping production grade machine learning systems
 2+ years building and shipping data Science based personalization services and recommendation systems
 experience in data Science or machine learning engineering
-Strong analytical and data Science skills <|endofqualifications|> <|company|> XYZ Corporation <|endofcompany|> <|jobtitle|>  Data Scientist <|endofjobtitle|> <|skills|> Python, R, scikit-learn, Keras, Tensorflow <|endofskills|> Dear Hiring Manager, 
+Strong analytical and data Science skills <|endofqualifications|> <|company|> XYZ Corporation <|endofcompany|> <|jobtitle|>  Data Scientist <|endofjobtitle|> <|skills|> Python, R, scikit-learn, Keras, Tensorflow <|endofskills|> <|applicant|> John Smith <|endofapplicant|> Dear Hiring Manager, 
+I am writing to express my interest in the Data Scientist position at XYZ Corporation. With my strong background in data science, I believe I would be a valuable asset to your team.
 
-I am writing to express my interest in the Data Scientist position at XYZ Corporation. With my strong background in data science and machine learning, I believe I am well-suited for this role.
+In my current position as a Data Scientist at DEF Company, I have developed and shipped production grade systems and recommendation systems. I have also developed and shipped custom software to help customers solve complex business problems. My experience in data science and machine learning have allowed me to develop and deliver products that are both effective and cost-effective.
 
-I have a Bachelor's degree in Computer Science and have over 2 years of experience in data science and engineering. My strong analytical and data science skills have allowed me to effectively develop and ship production grade machine learning systems. I am a strong analytical and data science expert with a focus on data science and engineering.
+I am excited about the opportunity to join XYZ Corporation and contribute to its success. I am confident that my skills and experience make me a strong fit for this role.
 
-I am currently working as a Data Scientist at XYZ Corporation and am eager to contribute to your team. I am confident that my skills and qualifications will make me a strong candidate for this position.
-
-Thank you for considering my application. I look forward to the opportunity to discuss how my skills and qualifications align with the needs of XYZ Corporation.
+Thank you for considering my application. I look forward to the opportunity to discuss how my skills and qualifications align with your needs.
 
 Sincerely,
-John Smith<|endoftext|>|workexperience|> Data Scientist at DEF Company <
+John Smith<|endoftext|>|workexperience| Machine Learning Engineer at Facebook <|endofworkexperience|

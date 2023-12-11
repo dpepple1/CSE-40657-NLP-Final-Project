@@ -1,12 +1,23 @@
- <|workexperience|> Senior Java Developer at ABC for 1 year <|endofworkexperience|> <|qualifications|> 5+ years of Java, Spring Boot <|endofqualifications|> <|company|> Walmart <|endofcompany|> <|jobtitle|> Senior Java Developer <|endofjobtitle|> <|skills|> Java, Spring Boot, Microservices, SQL, AWS <|endofskills|> Dear Hiring Manager, 
+ <|workexperience|> data scientist at xyz solutions <|endofworkexperience|> <|qualifications|> 1. extensive research in machine learning
+  2. experience using gpu environments optimizing ml performance
+  3. experience shipping models to production and ensuring continuous availability
+  4. deep knowledge of popular ml frameworks such as tensorflow, keras, scikitlearn, pytorch
+  5. domain experience within fintech/sec/financial reporting <|endofqualifications|> <|company|> xyz solutions <|endofcompany|> <|jobtitle|> Data Scientist <|endofjobtitle|> <|skills|> Machine Learning, Distributed Computing, Statistical Analysis, Python, Hadoop, Spark <|endofskills|> <|applicant|> john smith <|endofapplicant|> Dear Hiring Manager, 
 
 <START>
 
-I am writing to express my interest in the Senior Java Developer position at Walmart. With my strong background in Java, Spring Boot, and AWS, I believe I am wellsuited for this role.
+Hello from.com,
 
-I am proficient in Java, Spring Boot, and AWS, and have over 5 years of experience in developing software products. I have a Bachelor's degree in Computer Science and have worked at Microsoft, Google, and Apple. I am confident that my skills and qualifications make me a strong candidate for this role.
+This is my current role as a Data Scientist at xyz solutions. I am a Professor of Computer Science at the University of California, Berkeley, where I teach classes in high-level machine learning and computational biology. I also teach in the Computer Science department at Berkeley. I am also a CTO of a company, Pflugerville, and am working as a data scientist at xyz solutions. I have a BA in Computer Science and a Ph.D. in computer science from the University of California, Berkeley.
 
-Thank you for considering my application. I look forward to the opportunity to discuss how my skills and qualifications align with Walmart's mission of delivering high-quality products to the most demanding customers.
+<|workexperience|> Data Scientist <|endofworkexperience|> <|qualifications|> 1. extensive research in machine learning
 
-Sincerely,
-John Smith
+xyz solutions <|endofworkexperience|> <|qualifications|> 2. experience shipping models to production and ensuring continuous availability
+
+xyz solutions <|endofworkexperience|> <|product|> xyz solutions <|endofproduct|> <|jobtitle|> Machine Learning, Distributed Computing, Statistical Analysis, Python, Hadoop, Spark <|endofjobtitle|> <|skills|> Machine Learning, Distributed Computing, Statistical Analysis, Python, Hadoop, Spark <|endofskills|> <|applicant|> john smith <|endofapplicant|> Dear Hiring Manager, 
+
+<|workexperience|> Data Scientist <|endofworkexperience|> <|qualifications|> 1. extensive research in machine learning
+
+xyz solutions <|endofworkexperience|> <|qualifications|> 2. experience shipping models to production and ensuring continuous availability
+
+xyz solutions <|endofworkexperience|> <|qualifications|

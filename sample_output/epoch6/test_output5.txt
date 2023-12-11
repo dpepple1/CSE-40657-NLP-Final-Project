@@ -1,11 +1,13 @@
- <|workexperience|> Senior Database Administrator at Google (5 years) <|endofworkexperience|> <|qualifications|> Experience with big data technologies <|endofqualifications|> <|company|> Amazon <|endofcompany|> <|jobtitle|> Senior Database Administrator <|endofjobtitle|> <|skills|> Big Data Technologies, SQL, Database Management, Performance Tuning <|endofskills|> Dear Hiring Manager, 
+ <|workexperience|> Senior Database Administrator at Google (5 years) <|endofworkexperience|> <|qualifications|> Experience with big data technologies <|endofqualifications|> <|company|> Amazon <|endofcompany|> <|jobtitle|> Senior Database Administrator <|endofjobtitle|> <|skills|> Big Data Technologies, SQL, Database Management, Performance Tuning <|endofskills|> <|applicant|> Elizabeth Taylor <|endofapplicant|> Dear Hiring Manager, 
 
-I am writing to express my interest in the Senior Database Administrator position at Amazon. I am excited about the opportunity to contribute to your team and help ensure the best possible results for your customers.
+I am writing to express my interest in the Senior Database Administrator position at Amazon. I am passionate about big data technologies and I am excited about the opportunity to contribute to the SQL and Data Management teams at Amazon.
 
-I am confident that my skills and experience make me a strong candidate for this role. I am excited about the opportunity to contribute to the team and contribute to the greater success of Amazon.
+I am excited about the opportunity to contribute to the SQL and Data Management teams at Amazon. I am excited about the opportunity to contribute to the Performance Tuning teams at Amazon. I am excited about the opportunity to contribute to the Database Administrator team at Amazon. I am excited about the opportunity to contribute to the Performance Tuning teams at Google.
 
-I am excited about the opportunity to contribute to the company and contribute to the greater success of Amazon. I am excited about the opportunity to contribute to the company and contribute to the greater success of Amazon.
-Thank you for considering my application. I look forward to the opportunity to contribute to the company and contribute to the greater success of Amazon.
+Thank you for considering my application. I look forward to the opportunity to help you achieve your goals.
 
 Sincerely,
-John St. Laurent <|workexperience|> <|qualifications|> Senior Database Administrator, Microsoft SQL Server <|endofqualifications|> <|company|Microsoft|endofcompany|>
+
+Elizabeth Taylor<|endoftext|>What's your answer?
+
+We have found that, as the top three users of our online analytics tools, our insights have improved our performance. We have improved our results and we have increased our productivity. We have improved our accuracy and accuracy. We have improved our results

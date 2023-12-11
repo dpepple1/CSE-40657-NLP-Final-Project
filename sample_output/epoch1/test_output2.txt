@@ -2,13 +2,6 @@
 Exceptional interpersonal skills including teamwork, facilitation, and negotiation
 Industry experience in a full-stack programming language, preferably Scala, GoLang, Python, or similar
 Experience with R, SAS, Stata, or similar tools in the context of machine learning algorithms
-Experience in designing systems for production environments <|endofqualifications|> <|company|> XYZ Corporation <|endofcompany|> <|jobtitle|>  Data Scientist <|endofjobtitle|> <|skills|> Python, R, Scala, machine learning algorithms, data collection, communication skills <|endofskills|> Dear Hiring Manager, 
-X
-A
+Experience in designing systems for production environments <|endofqualifications|> <|company|> XYZ Corporation <|endofcompany|> <|jobtitle|>  Data Scientist <|endofjobtitle|> <|skills|> Python, R, Scala, machine learning algorithms, data collection, communication skills <|endofskills|> <|applicant|> John Smith <|endofapplicant|> Dear Hiring Manager, 
 
-<|endofjobtitle|> Data Scientist <|endofjobtitle|> <|endofskills|> Python, R, Python, or similar software, in the context of machine learning algorithms <|endofskills|> <|endofjobtitle|> Data Scientist <|endofjobtitle|>
-
-<|endofskills|> Python, R, Python, or similar software, in the context of machine learning algorithms <|endofskills|> <|endofskills|> Python, R, Python, or similar software, in the context of machine learning algorithms
-<|endofskills|> <|endofskills|>
-
-<|endofskills|> Python, R, Python, or similar software, in the context of machine learning algorithms <|endofskills|> <|endofskills|> Python, R, Python,
+I am an Assistant Professor of Computer Science at DEF Company, with a BA in Computer Science from University of Waterloo, Ont. I am interested in working on a wide variety of technical problems and problems related to data management. I am currently working on a product design and software development project for the Big Data Machine Learning Library, which is a product development project for a large number of applications. I am currently working on a project to implement a web application that will be developed by the Big Data Machine Learning Laboratory. I am currently working on a new product design project for a data processing project for a large number of data processing applications. I am currently working on a new product design project for a large number of data processing applications. I am currently working on a new product design project for a large number of data processing applications. I am currently working on a new product design project for a large number of data processing applications. I am currently working on a new product design project for a large number of data processing

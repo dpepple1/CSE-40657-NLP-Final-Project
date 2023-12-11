@@ -1,11 +1,2 @@
- <|workexperience|> Generative AI Engineer at Apple for 3 years <|endofworkexperience|> <|qualifications|> PhD in AI <|endofqualifications|> <|company|> Facebook <|endofcompany|> <|jobtitle|> Generative AI Engineer <|endofjobtitle|> <|skills|> Python, C++, AI, Machine Learning, Generative Models <|endofskills|> Dear Hiring Manager, 
-
-I am a senior data scientist at Facebook. I have been working with Generative AI for over 3 years. I have a passion for creating new ways of thinking and creating new applications. I am passionate about learning and learning and have learned a lot about the subject of AI. I am a strong believer in learning from other people, and I have a deep love of AI.
-
-I am excited about your position at Facebook. I am excited about your abilities and your passion for AI. I am looking forward to working with you.
-
-Sincerely,
-
-Hiring Manager
-
-|endofjobtitle| <|endofendofjobtitle|> <|skills|> Python, C++, AI, Generative Models, Cognitive Software Engineering, Machine Learning, Data Mining, Machine Learning, Data Structures, and Social Media <|endofskills|> <|skills|> Python, C++, AI, Machine Learning, Data Mining,
+ <|workexperience|> Generative AI Engineer at Apple for 3 years <|endofworkexperience|> <|qualifications|> PhD in AI <|endofqualifications|> <|company|> Facebook <|endofcompany|> <|jobtitle|> Generative AI Engineer <|endofjobtitle|> <|skills|> Python, C++, AI, Machine Learning, Generative Models <|endofskills|> <|applicant|> Oliver Brown <|endofapplicant|> Dear Hiring Manager, 
+I am a CTO at Apple. I am a passionate and passionate about AI. I have a background in machine learning and I have a passion for machine learning. I am passionate about the many ways AI can be used to help people and I am excited about the future of Apple. I am currently working on an AI application for Google. I am excited about the future of Apple and the possibilities of AI. I am currently looking for a team to work together to make AI better. I am looking for someone who is passionate about AI and has a passion for machine learning. I am looking for someone who has a strong background in machine learning and has a passion for machine learning. I am looking for someone who is passionate about AI and has a passion for the possibilities of AI. I am looking for someone who has a strong background in machine learning and has a passion for the possibility of creating AI applications. I am looking for someone who has a strong background in machine learning and has a passion for the

@@ -2,12 +2,7 @@
 Exceptional interpersonal skills including teamwork, facilitation, and negotiation
 Industry experience in a full-stack programming language, preferably Scala, GoLang, Python, or similar
 Experience with R, SAS, Stata, or similar tools in the context of machine learning algorithms
-Experience in designing systems for production environments <|endofqualifications|> <|company|> XYZ Corporation <|endofcompany|> <|jobtitle|>  Data Scientist <|endofjobtitle|> <|skills|> Python, R, Scala, machine learning algorithms, data collection, communication skills <|endofskills|> Dear Hiring Manager, 
+Experience in designing systems for production environments <|endofqualifications|> <|company|> XYZ Corporation <|endofcompany|> <|jobtitle|>  Data Scientist <|endofjobtitle|> <|skills|> Python, R, Scala, machine learning algorithms, data collection, communication skills <|endofskills|> <|applicant|> John Smith <|endofapplicant|> Dear Hiring Manager, 
+I am a Data Scientist at DEF Company. I am interested in helping to develop and improve the Python and R programming languages. I am currently working on a Python and R implementation of the SQL Server and R implementation of the data visualization API. I am currently developing a high-performance machine learning framework for data visualization and visualization. I am also a Senior Data Scientist at DEF Company. I am excited about your application and would like to learn more about your skills and qualifications. I am confident that my experience and qualifications are sufficient to apply for this position. I look forward to working with you.<|endoftext|>Microsoft has been pushing for years to create a more open, accessible, and flexible platform for Windows, and has recently implemented a few new features to help bring it closer to that goal. Today, Microsoft is announcing a new open platform for Windows, and it's exciting.
 
-I am looking for a Data Scientist at XYZ Corporation. My main interests include: Computer Science, Machine Learning, and Data Analysis. I am interested in helping to improve the data science, machine learning, and data collection experience. I am currently applying for a position at XYZ Corporation.
-
-I am a graduate of Stanford University, and have a bachelor's degree in Computer Science. I am interested in helping to improve the data science, machine learning, and data collection experience of XYZ Corporation. I am currently applying for a position at XYZ Corporation.
-
-I am a senior data scientist at XYZ Corporation. I am passionate about helping people solve problems and understand the challenges. I am interested in helping to improve the data science, machine learning, and data collection experience of XYZ Corporation. I am currently applying for a position at XYZ Corporation.
-
-I am interested in applying for a position at XYZ Corporation. I am passionate about helping to improve the data science
+The new open platform will allow users to easily create and manage Windows Azure data, and provide users with the ability to manage their

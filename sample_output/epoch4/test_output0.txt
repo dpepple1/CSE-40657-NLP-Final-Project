@@ -2,7 +2,12 @@
 4+ years experience Developing and shipping production grade machine learning systems
 2+ years building and shipping data Science based personalization services and recommendation systems
 experience in data Science or machine learning engineering
-Strong analytical and data Science skills <|endofqualifications|> <|company|> XYZ Corporation <|endofcompany|> <|jobtitle|>  Data Scientist <|endofjobtitle|> <|skills|> Python, R, scikit-learn, Keras, Tensorflow <|endofskills|> Dear Hiring Manager, 
-Thank you for your interest in my role as a Data Scientist at XYZ Corporation. I have worked in the Data Scientist role at XYZ Corporation for over 2 years, and have been a part of the XYZ Data Scientist role for over 2 years. I have worked in machine learning and data science environments, and have a strong analytical and customer service background. I have developed and shipped business grade data science systems for XYZ Corporation. I have a strong understanding of machine learning and data science, and have been a part of the data scientist role at XYZ Corporation for over 2 years. I am passionate about data science and have a strong analytical and customer service background. I am excited about the opportunity to contribute to XYZ Corporation's efforts to bring data science and data engineering to the next generation.
+Strong analytical and data Science skills <|endofqualifications|> <|company|> XYZ Corporation <|endofcompany|> <|jobtitle|>  Data Scientist <|endofjobtitle|> <|skills|> Python, R, scikit-learn, Keras, Tensorflow <|endofskills|> <|applicant|> John Smith <|endofapplicant|> Dear Hiring Manager, 
 
-I am a strong candidate for XYZ Corporation's Data Scientist role. I am passionate about the role and the value of my expertise in data science and machine learning. I am excited about the
+I am a Data Scientist at XYZ Corporation. I am a strong candidate for the Data Scientist position. I have a strong background in data science and I have a strong interest in data analysis. I am well versed in machine learning and have been able to solve complex problems. I am well-versed in data science and have a strong interest in machine learning. I am well-versed in machine learning and have a strong interest in the data science domain.
+
+I am looking for a qualified Data Scientist to help me develop and ship systems for the XYZ Corporation. I am also interested in helping improve my skills in machine learning and the ability to understand and apply data. I am currently employed as a Data Scientist at XYZ Corporation.
+
+I am interested in working with your team to develop and ship data science systems. I am currently working with my team to develop and ship data. I am also interested in helping with the business to develop and ship data.
+
+

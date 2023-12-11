@@ -2,10 +2,11 @@
 4+ years experience Developing and shipping production grade machine learning systems
 2+ years building and shipping data Science based personalization services and recommendation systems
 experience in data Science or machine learning engineering
-Strong analytical and data Science skills <|endofqualifications|> <|company|> XYZ Corporation <|endofcompany|> <|jobtitle|>  Data Scientist <|endofjobtitle|> <|skills|> Python, R, scikit-learn, Keras, Tensorflow <|endofskills|> Dear Hiring Manager, 
+Strong analytical and data Science skills <|endofqualifications|> <|company|> XYZ Corporation <|endofcompany|> <|jobtitle|>  Data Scientist <|endofjobtitle|> <|skills|> Python, R, scikit-learn, Keras, Tensorflow <|endofskills|> <|applicant|> John Smith <|endofapplicant|> Dear Hiring Manager, 
+I am writing to express my interest in the Data Scientist position at XYZ Corporation. With a strong background in data science and machine learning, I believe I would be a valuable addition to your team. With my strong analytical and data skills, I believe I would be a valuable addition to your team.
 
-I am writing to express my interest in the Data Scientist position at XYZ Corporation. With a strong analytical and data science background, I believe I would be a valuable asset to your team. I am currently working as a Data Scientist at XYZ Corporation and have a Master's degree in Computer Science. I am currently working as a Data Scientist at DEF Company.
+I am excited about the opportunity to join XYZ Corporation and contribute to its mission of delivering high-quality, high-quality products to our customers. I am excited about the opportunity to contribute to the development of innovative machine learning systems and contribute to the success of XYZ Corporation. I am excited about the opportunity to contribute to the growth of XYZ Corporation and contribute to the growth of my skills. Thank you for considering my application.
 
-In my current role as a Data Scientist at XYZ Corporation, I have successfully built machine learning systems and machine learning models using machine learning algorithms. I have a deep understanding of data science and have a strong analytical and data science skills. I am proficient in Python, R, and scikit-learn, Keras, Tensorflow, and Keras. I have a strong analytical and data science background and have a strong ability to analyze data.
+Thank you for considering my application. I look forward to the opportunity to contribute to the success of XYZ Corporation. I look forward to the opportunity to discuss how my skills and experience align with the needs of XYZ Corporation.
 
-I am excited about the opportunity to contribute to your team and drive the development of machine learning models. I am confident that my skills and experience make me a strong
+Sincerely

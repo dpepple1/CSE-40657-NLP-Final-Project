@@ -1,17 +1,8 @@
- <|workexperience|> Data Scientist at DEF Corporation <|endofworkexperience|> <|qualifications|>  2+ years of experience in a modeling role, preferably in the marketing domain
- prior project management experience is preferred but not necessary
- postsecondary education, preferably with a quantitative background
- excellent written and verbal communication skills <|endofqualifications|> <|company|> XYZ Analytics <|endofcompany|> <|jobtitle|> Data Scientist <|endofjobtitle|> <|skills|> R, Python, Tableau, data modeling, project management, communication <|endofskills|> Dear Hiring Manager, 
+ <|workexperience|> Data Scientist at DEF Corporation <|endofworkexperience|> <|qualifications|> Bachelor's Degree in Actuarial Science, Economics, Statistics, Math, or any analytically oriented field of study
+Minimum 3 years' statistics and predictive modeling experience within the Property and Casualty Insurance industry
+Actuarial exams or designation is an asset but not required <|endofqualifications|> <|company|> XYZ Insurance <|endofcompany|> <|jobtitle|>  Data Scientist <|endofjobtitle|> <|skills|> Statistical analysis, machine learning, data visualization, programming (Python, R), problem-solving, communication <|endofskills|> <|applicant|> John Smith <|endofapplicant|> Dear Hiring Manager, 
 
 <START>
+Posted:
 
-I am writing to express my interest in the Data Scientist position at XYZ Analytics. With a solid background in data analysis and advanced data modeling techniques, I believe I am wellsuited for this role.
-
-In my current position as a Data Scientist at DEF Corporation, I have successfully applied modeling and data analysis techniques to deliver highly accurate, timely and meaningful insights into a variety of consumer products. My experience as a data analyst at DEF Corporation and my experience as a Senior Project Manager at XYZ Analytics has enabled me to effectively integrate complex datasets into marketing strategies. Additionally, my ability to work with industry stakeholders and cross-functional teams has allowed me to effectively manage product development, and I am confident that my skills and experience make me a strong candidate for this role.
-
-I hold a Bachelor's degree in Computer Science and have a strong background in data analysis and modeling techniques. I am confident that my experience and leadership abilities make me a strong candidate for this role.
-
-Thank you for considering my application. I look forward to the opportunity to discuss how my skills and qualifications align with the needs of XYZ Analytics.
-
-Sincerely,
-John Smith
+The following questions are now closed.

@@ -1,2 +1,12 @@
- <|workexperience|> Senior Database Administrator at Google (5 years) <|endofworkexperience|> <|qualifications|> Experience with big data technologies <|endofqualifications|> <|company|> Amazon <|endofcompany|> <|jobtitle|> Senior Database Administrator <|endofjobtitle|> <|skills|> Big Data Technologies, SQL, Database Management, Performance Tuning <|endofskills|> Dear Hiring Manager, 
-I am a senior data scientist at Google. I am a senior data scientist at Google. I am a senior data scientist at Google. I am a senior data scientist at Google. I am a senior data scientist at Google. I am a senior data scientist at Google. I am a senior data scientist at Google. I am a senior data scientist at Google. I am a senior data scientist at Google. I am a senior data scientist at Google. I am a senior data scientist at Google. I am a senior data scientist at Google. I am a senior data scientist at Google. I am a senior data scientist at Google. I am a senior data scientist at Google. I am a senior data scientist at Google. I am a senior data scientist at Google. I am a senior data scientist at Google. I am a senior data scientist at Google. I am a senior data scientist at Google. I am a senior data scientist at Google. I am a senior data scientist at Google. I am
+ <|workexperience|> Senior Database Administrator at Google (5 years) <|endofworkexperience|> <|qualifications|> Experience with big data technologies <|endofqualifications|> <|company|> Amazon <|endofcompany|> <|jobtitle|> Senior Database Administrator <|endofjobtitle|> <|skills|> Big Data Technologies, SQL, Database Management, Performance Tuning <|endofskills|> <|applicant|> Elizabeth Taylor <|endofapplicant|> Dear Hiring Manager, 
+
+You have been offered a position as a SQL Database Engineer. We are excited to be your team. We have been working on this problem for over 10 years. We are looking for a qualified Hiring Manager.
+
+The position is a position that will be filled by the end of the the next 3 years. You will be responsible for implementing, developing, and maintaining the SQL Database Engine. You will be responsible for the production of SQL and other software.
+
+The job is available to all people with a current job. You must have an advanced degree in SQL or SQL. You must have experience with SQL and SQL Data, SQL, and have completed a minimum of 6-12 months of experience. You will be responsible for the production of SQL and other software.
+
+
+You will be responsible for the development of SQL and other software. You will be responsible for the production of SQL and other software.
+
+You will be responsible for the production of SQL and other software.

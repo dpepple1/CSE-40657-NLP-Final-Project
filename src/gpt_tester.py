@@ -28,7 +28,9 @@ def top_p(probs, p):
 
 
 lm = gpt.LanguageModel('gpt2', 'cpu')
-lm.model.load_state_dict(torch.load('trained_models/trained-gpt2--10.pt'))
+lm.model.load_state_dict(torch.load('trained_models/trained-gpt2--0.pt'))
+
+print('loaded!')
 
 df = cld.get_data('data/cover-letter-dataset', 'test.csv')
 df = cld.add_prompts(df)
@@ -42,6 +44,7 @@ subset = df.sample(frac=1)
 
 for idx, (_, row) in enumerate(subset.iterrows()):
 
+    print('row', idx)
     if idx > 5:
         break
         
@@ -62,7 +65,7 @@ for idx, (_, row) in enumerate(subset.iterrows()):
     output_len = 0
     output = []
 
-    while output_len < 1000:
+    while output_len < 400:
         q, p = lm.step(q, prev)
         #selected = greedy(p)
         #selected = ancestral(p)

@@ -38,13 +38,14 @@ def split_johns(df):
     '''
     return df[df['Applicant Name'] == 'John Smith'], df[df['Applicant Name'] != 'John Smith']
 
-def build_prompt(work_experience, qualifications, company, job_title, skills,):
+def build_prompt(work_experience, qualifications, company, job_title, skills, applicant):
     prompt = ''
     prompt += f' <|workexperience|> {work_experience} <|endofworkexperience|>'
     prompt += f' <|qualifications|> {qualifications} <|endofqualifications|>'
     prompt += f' <|company|> {company} <|endofcompany|>'
     prompt += f' <|jobtitle|> {job_title} <|endofjobtitle|>'
     prompt += f' <|skills|> {skills} <|endofskills|>'
+    prompt += f' <|applicant|> {applicant} <|endofapplicant|>'
 
     #prompt += f' Dear Hiring Manager,\n' #Not sure if we want this \n here
 
@@ -55,7 +56,8 @@ def build_prompt_from_row(row):
             row['Preferred Qualifications'],
             row['Hiring Company'],
             row['Job Title'],
-            row['Skillsets'] )
+            row['Skillsets'],
+            row['Applicant Name'] )
 
     return prompt
 

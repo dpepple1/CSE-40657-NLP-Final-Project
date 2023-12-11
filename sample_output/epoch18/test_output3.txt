@@ -1,12 +1,8 @@
- <|workexperience|> Generative AI Engineer at Apple for 3 years <|endofworkexperience|> <|qualifications|> PhD in AI <|endofqualifications|> <|company|> Facebook <|endofcompany|> <|jobtitle|> Generative AI Engineer <|endofjobtitle|> <|skills|> Python, C++, AI, Machine Learning, Generative Models <|endofskills|> Dear Hiring Manager, 
+ <|workexperience|> Generative AI Engineer at Apple for 3 years <|endofworkexperience|> <|qualifications|> PhD in AI <|endofqualifications|> <|company|> Facebook <|endofcompany|> <|jobtitle|> Generative AI Engineer <|endofjobtitle|> <|skills|> Python, C++, AI, Machine Learning, Generative Models <|endofskills|> <|applicant|> Oliver Brown <|endofapplicant|> Dear Hiring Manager, 
 
-I am writing to express my interest in the Generative AI Engineer position at Facebook. With my strong background in AI and machine learning, I believe I am well-suited for this role.
+I am writing to express my interest in the Generative AI Engineer position at Facebook. With my PhD in AI, I have developed and implemented a robust AI model for the production of complex products. I have a strong background in machine learning and AI development, and I am confident that my skills and qualifications make me a strong candidate for this position.
 
-In my current position as a Senior AI Engineer at Apple, I have successfully developed and validated advanced AI models and algorithms, and have also been instrumental in developing machine learning models. I am confident that my skills and experience make me a strong candidate for this role.
-
-In my current position as a Senior AI Engineer at Facebook, I have successfully developed and validated machine learning models and algorithms, and have also been instrumental in developing machine learning models. I am confident that my experience and skills make me a strong candidate for this role.
-
-Thank you for considering my application. I look forward to the possibility of discussing how my skills and qualifications align with your company's goals.
+I am excited about the opportunity to contribute to your team and contribute to the development of AI products. I am confident that my expertise and skills make me a strong candidate for this position. Thank you for considering my application.
 
 Sincerely,
-John Smith<|endoftext|>|workexperience|> 2 years as a Senior
+Oliver Brown<|endoftext|>|workexperience|> Analytical Machine Learning Engineer at DEF Company <|endofworkexperience|> <|qualifications|> PhD in Computer Science <|endofqualifications|> <|company|> Microsoft <|endofcompany|> <|jobtitle|>  Analytical Machine Learning Engineer <|

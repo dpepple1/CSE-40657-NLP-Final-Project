@@ -44,7 +44,7 @@ def top_p(probs, p):
     sample = torch.multinomial(dist, 1)
     return indicies[sample]
 
-def train(dataset, lm, batch_size=16, epochs=5, lr=2e-5,
+def train(dataset, test, lm, batch_size=16, epochs=5, lr=2e-5,
             max_seq_len=400, warmup_steps=200, gpt2_type="gpt2", 
             output_dir=".", output_prefix="wreckgar", test_mode=False,
             save_model_on_epoch=False):
@@ -106,17 +106,14 @@ def train(dataset, lm, batch_size=16, epochs=5, lr=2e-5,
             )
 
         lm.model = lm.model.to('cpu')
-        validate(lm, epoch)
+        validate(lm, epoch, test)
         lm.model = lm.model.cuda()
 
     
             #keep reading here: https://gist.github.com/mf1024/3df214d2f17f3dcc56450ddf0d5a4cd7
 
 
-def validate(lm, epoch):
-    df = cld.get_data('data/cover-letter-dataset', 'test.csv')
-    df = cld.add_prompts(df)
-
+def validate(lm, epoch, df):
     output_folder = "sample_output"
     if not os.path.exists(output_folder):
         os.mkdir(output_folder)
@@ -170,7 +167,11 @@ if __name__ == "__main__":
     dataset = cld.CoverLetterDataset(df)
 
     lm = gpt.LanguageModel('gpt2', 'cpu')
-    train(dataset, lm, epochs=20, save_model_on_epoch=True)
+
+    test = cld.get_data('data/cover-letter-dataset', 'test.csv')
+    test = cld.add_prompts(test)
+
+    train(dataset, test, lm, epochs=20, save_model_on_epoch=True)
 
 
 #IDEAS:

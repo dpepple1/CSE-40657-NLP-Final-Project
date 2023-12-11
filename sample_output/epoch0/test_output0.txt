@@ -2,35 +2,23 @@
 4+ years experience Developing and shipping production grade machine learning systems
 2+ years building and shipping data Science based personalization services and recommendation systems
 experience in data Science or machine learning engineering
-Strong analytical and data Science skills <|endofqualifications|> <|company|> XYZ Corporation <|endofcompany|> <|jobtitle|>  Data Scientist <|endofjobtitle|> <|skills|> Python, R, scikit-learn, Keras, Tensorflow <|endofskills|> Dear Hiring Manager, 
-
-5+ years experience building and shipping grade machine learning systems
-
-5+ years building and shipping grade machine learning systems
-
-7 years experience building and shipping grade machine learning systems
-
-5+ years building and shipping grade machine learning systems
-
-5+ years experience building and shipping grade machine learning systems
-5+ years experience building and shipping grade machine learning systems
-
-5+ years building and shipping grade machine learning systems
-
-5+ years experience building and shipping grade machine learning systems
-
-5+ years experience building and shipping grade machine learning systems
-
-5+ years experience building and shipping grade machine learning systems
-
-5+ years experience building and shipping grade machine learning systems
-
-5+ years experience building and shipping grade machine learning systems
-
-5+ years experience building and shipping grade machine learning systems
-
-5+ years experience building and shipping grade machine learning systems
-
-5+ years experience building and shipping grade machine learning systems
-
-5+ years experience building and shipping grade machine
+Strong analytical and data Science skills <|endofqualifications|> <|company|> XYZ Corporation <|endofcompany|> <|jobtitle|>  Data Scientist <|endofjobtitle|> <|skills|> Python, R, scikit-learn, Keras, Tensorflow <|endofskills|> <|applicant|> John Smith <|endofapplicant|> Dear Hiring Manager, 
+5+ experience Developing and shipping machine learning systems
+3+ years experience developing and shipping machine learning systems
+3+ years experience developing and shipping machine learning systems
+4+ years experience working with machine learning systems
+2+ years experience developing and shipping machine learning systems
+2+ years experience building and shipping machine learning systems
+3+ years experience building and shipping machine learning systems
+3+ years experience building and shipping machine learning systems
+4+ years experience building and shipping machine learning systems
+3+ years experience building and shipping machine learning systems
+3+ years experience building and shipping machine learning systems
+3+ years experience building and shipping machine learning systems
+3+ years experience building and shipping machine learning systems
+3+ years experience building and shipping machine learning systems
+3+ years experience building and shipping machine learning systems
+3+ years experience building and shipping machine learning systems
+3+ years experience building and shipping machine learning systems
+3+ years experience building and shipping machine learning systems
+3+ years
