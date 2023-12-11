@@ -3,13 +3,8 @@ import re
 import pandas as pd
 import math
 from sklearn.feature_extraction.text import TfidfVectorizer
-from nltk import sent_tokenize, word_tokenize, PorterStemmer
-from nltk.corpus import stopwords    
-import nltk
 from cover_letter_datareader import CoverLetterDataset 
 import random
-
-nltk.download('punkt')
 
 class Parser():
     def __init__(self):
@@ -18,21 +13,19 @@ class Parser():
     def skillsetParse(self, resume):
         trainingSkillData = self.trainData["Skillsets"].str.cat(sep=' ')
         vectorizer = TfidfVectorizer(stop_words='english', ngram_range=(1,3), max_features=10)
-        vectors = vectorizer.fit_transform([trainingSkillData, resume])
+        vectorizer.fit_transform([trainingSkillData, resume])
         feature_names = vectorizer.get_feature_names_out() 
 
-        skillset = []
-        for col, term in enumerate(feature_names):
-            skillset.append(term)
+        feature_names = " ".join(feature_names)
 
-        return skillset
+        return feature_names
 
     def experienceParse(self, resume):
         vectorizer = TfidfVectorizer(stop_words='english', ngram_range=(7,12), max_features=10)
         trainingExperienceData = self.trainData["Past Working Experience"].str.cat(sep=' ') 
         trainingExperienceData += self.trainData["Current Working Experience"].str.cat(sep=' ')
 
-        vectors = vectorizer.fit_transform([trainingExperienceData, resume])
+        vectorizer.fit_transform([trainingExperienceData, resume])
         feature_names = vectorizer.get_feature_names_out()
         experience = []
         for col, term in enumerate(feature_names):
@@ -44,7 +37,7 @@ class Parser():
         vectorizer = TfidfVectorizer(stop_words='english', ngram_range=(2,12), max_features=10)
         trainingQualificationData = self.trainData["Preferred Qualifications"].str.cat(sep=' ') 
 
-        vectors = vectorizer.fit_transform([trainingQualificationData, resume, posting['description']])
+        vectorizer.fit_transform([trainingQualificationData, resume, posting['description']])
         feature_names = vectorizer.get_feature_names_out()
         qualifications = []
         for col, term in enumerate(feature_names):
@@ -77,7 +70,7 @@ if __name__ == '__main__':
     postingData = postingData[['description','industry','company_id','title']].loc[postingData['industry']=='Information Technology & Services']
 
     parser = Parser()
-    skills = parser.skillsetParse(resumeData.iloc[3]['Resume_str'])
+    skills = parser.skillsetParse(resumeData.iloc[5]['Resume_str'])
     print(skills)
     experience = parser.experienceParse(resumeData.iloc[3]['Resume_str'])
     print(experience)
