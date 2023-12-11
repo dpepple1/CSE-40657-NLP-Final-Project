@@ -5,45 +5,65 @@ import math
 from sklearn.feature_extraction.text import TfidfVectorizer
 from cover_letter_datareader import CoverLetterDataset 
 import random
+import spacy
+from sklearn.metrics.pairwise import cosine_similarity
+
 
 class Parser():
     def __init__(self):
+        self.nlp = spacy.load('en_core_web_lg')
         self.trainData = pd.read_csv('data/cover-letter-dataset/train.csv')
 
     def skillsetParse(self, resume):
-        trainingSkillData = self.trainData["Skillsets"].str.cat(sep=' ')
-        vectorizer = TfidfVectorizer(stop_words='english', ngram_range=(1,3), max_features=10)
-        vectorizer.fit_transform([trainingSkillData, resume])
-        feature_names = vectorizer.get_feature_names_out() 
+        trainingSkillData = set(self.trainData["Skillsets"].str.cat(sep=' ').split(","))
+        trainingSkillData = " ".join(trainingSkillData)
+        print(len(trainingSkillData))
+        resume = " ".join(set(resume.split()))
+        doc = self.nlp(resume)
+        
+        similarities = {}
+        for word in trainingSkillData:
+            tok = self.nlp(word)
+            similarities[tok.text] = {}
+            for token in doc:
+                similarities[tok.text].update({token.text:tok.similarity(token)})
 
+        top2 = lambda x: {k: v for k, v in sorted(similarities[x].items(), key=lambda item: item[1], reverse=True)[:2]}
+        for word in words:
+            print(top2(word))
+        exit()
+        # trainingSkillData = self.trainData["Skillsets"].dropna()
+        # vectorizer = TfidfVectorizer(stop_words='english', ngram_range=(1,3), max_features=50)
+        # vectors = vectorizer.fit_transform(trainingSkillData)
+        # feature_names = vectorizer.get_feature_names_out()
+        # res_vectors = vectorizer.fit_transform([resume])
+        # res_features = vectorizer.get_feature_names_out()
+        # print(set(feature_names).intersection(set(res_features)))
+
+        return res_features
+
+    def experienceParse(self, resume):
+        vectorizer = TfidfVectorizer(stop_words='english', ngram_range=(6,11), max_features=10)
+        trainingExperienceData = self.trainData["Past Working Experience"].str.cat(sep=' ') 
+        trainingExperienceData += self.trainData["Current Working Experience"].str.cat(sep=' ')
+
+        vectors = vectorizer.fit_transform([resume])
+        feature_names = vectorizer.get_feature_names_out()
+        
         feature_names = " ".join(feature_names)
 
         return feature_names
 
-    def experienceParse(self, resume):
-        vectorizer = TfidfVectorizer(stop_words='english', ngram_range=(7,12), max_features=10)
-        trainingExperienceData = self.trainData["Past Working Experience"].str.cat(sep=' ') 
-        trainingExperienceData += self.trainData["Current Working Experience"].str.cat(sep=' ')
-
-        vectorizer.fit_transform([trainingExperienceData, resume])
-        feature_names = vectorizer.get_feature_names_out()
-        experience = []
-        for col, term in enumerate(feature_names):
-            experience.append(term)
-
-        return experience
-
     def qualificationsParse(self, resume, posting):
-        vectorizer = TfidfVectorizer(stop_words='english', ngram_range=(2,12), max_features=10)
+        vectorizer = TfidfVectorizer(stop_words='english', ngram_range=(2,9), max_features=5)
         trainingQualificationData = self.trainData["Preferred Qualifications"].str.cat(sep=' ') 
 
-        vectorizer.fit_transform([trainingQualificationData, resume, posting['description']])
+        vectorizer.fit_transform([resume, posting['description']])
         feature_names = vectorizer.get_feature_names_out()
-        qualifications = []
-        for col, term in enumerate(feature_names):
-            qualifications.append(term)
+        
+        feature_names = " ".join(feature_names)
 
-        return qualifications
+        return feature_names
 
     def getCompany(self, posting):
         companyData = pd.read_csv('data/job-posting-dataset/companies.csv')
@@ -57,7 +77,7 @@ class Parser():
     def getName(self):
         names = ['James Smith','Michael Smith', 'Robert Smith','Maria Garcia','Maria Rodriguez',
                 'David Smith','Mary Smith','Maria Hernandez','Maria Martinez','James Johnson']
-        index = random.randint(0,len(names))
+        index = random.randint(0,len(names)-1)
         return names[index]
 
 if __name__ == '__main__':
@@ -70,11 +90,12 @@ if __name__ == '__main__':
     postingData = postingData[['description','industry','company_id','title']].loc[postingData['industry']=='Information Technology & Services']
 
     parser = Parser()
-    skills = parser.skillsetParse(resumeData.iloc[5]['Resume_str'])
+    print(resumeData.iloc[9]['Resume_str'])
+    skills = parser.skillsetParse(resumeData.iloc[16]['Resume_str'])
     print(skills)
-    experience = parser.experienceParse(resumeData.iloc[3]['Resume_str'])
+    experience = parser.experienceParse(resumeData.iloc[12]['Resume_str'])
     print(experience)
-    qualifications = parser.qualificationsParse(resumeData.iloc[3]['Resume_str'], postingData.iloc[3])
+    qualifications = parser.qualificationsParse(resumeData.iloc[12]['Resume_str'], postingData.iloc[3])
     print(qualifications)
     companyName = parser.getCompany(postingData.iloc[3])
     print(companyName)
