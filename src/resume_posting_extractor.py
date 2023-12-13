@@ -22,11 +22,11 @@ class Parser():
         skills = []
         for entity in doc.ents:
             if entity.label_ == "SKILL":
-                print(entity)
+                #print(entity)
                 skills.append(entity.text)
         skills = list(set(skills))
-
-        exit()
+        print(skills)
+        
 
     def experienceParse(self, resume):
         vectorizer = TfidfVectorizer(stop_words='english', ngram_range=(6,11), max_features=10)
@@ -77,11 +77,11 @@ if __name__ == '__main__':
 
     parser = Parser()
     #print(resumeData.iloc[9]['Resume_str'])
-    skills = parser.skillsetParse(resumeData.iloc[12]['Resume_str'])
+    skills = parser.skillsetParse(resumeData.iloc[83]['Resume_str'])
     print(skills)
-    experience = parser.experienceParse(resumeData.iloc[12]['Resume_str'])
+    experience = parser.experienceParse(resumeData.iloc[83]['Resume_str'])
     print(experience)
-    qualifications = parser.qualificationsParse(resumeData.iloc[12]['Resume_str'], postingData.iloc[3])
+    qualifications = parser.qualificationsParse(resumeData.iloc[83]['Resume_str'], postingData.iloc[3])
     print(qualifications)
     companyName = parser.getCompany(postingData.iloc[3])
     print(companyName)
