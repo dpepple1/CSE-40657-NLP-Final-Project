@@ -25,8 +25,8 @@ class Parser():
                 #print(entity)
                 skills.append(entity.text)
         skills = list(set(skills))
-        print(skills)
-        
+
+        return ", ".join(skills)
 
     def experienceParse(self, resume):
         vectorizer = TfidfVectorizer(stop_words='english', ngram_range=(6,11), max_features=10)
