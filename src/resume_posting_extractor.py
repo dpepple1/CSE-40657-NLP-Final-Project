@@ -7,40 +7,26 @@ from cover_letter_datareader import CoverLetterDataset
 import random
 import spacy
 from sklearn.metrics.pairwise import cosine_similarity
+import skills_parsing
 
 
 class Parser():
     def __init__(self):
-        self.nlp = spacy.load('en_core_web_lg')
+        self.nlp = skills_parsing.main()
+        self.skill_pattern_path = "data/resume-dataset/Resume/jz_skill_patterns.jsonl"
         self.trainData = pd.read_csv('data/cover-letter-dataset/train.csv')
 
     def skillsetParse(self, resume):
-        trainingSkillData = set(self.trainData["Skillsets"].str.cat(sep=' ').split(","))
-        trainingSkillData = " ".join(trainingSkillData)
-        print(len(trainingSkillData))
-        resume = " ".join(set(resume.split()))
+        resume = skills_parsing.process_resume(resume)
         doc = self.nlp(resume)
-        
-        similarities = {}
-        for word in trainingSkillData:
-            tok = self.nlp(word)
-            similarities[tok.text] = {}
-            for token in doc:
-                similarities[tok.text].update({token.text:tok.similarity(token)})
+        skills = []
+        for entity in doc.ents:
+            if entity.label_ == "SKILL":
+                print(entity)
+                skills.append(entity.text)
+        skills = list(set(skills))
 
-        top2 = lambda x: {k: v for k, v in sorted(similarities[x].items(), key=lambda item: item[1], reverse=True)[:2]}
-        for word in words:
-            print(top2(word))
         exit()
-        # trainingSkillData = self.trainData["Skillsets"].dropna()
-        # vectorizer = TfidfVectorizer(stop_words='english', ngram_range=(1,3), max_features=50)
-        # vectors = vectorizer.fit_transform(trainingSkillData)
-        # feature_names = vectorizer.get_feature_names_out()
-        # res_vectors = vectorizer.fit_transform([resume])
-        # res_features = vectorizer.get_feature_names_out()
-        # print(set(feature_names).intersection(set(res_features)))
-
-        return res_features
 
     def experienceParse(self, resume):
         vectorizer = TfidfVectorizer(stop_words='english', ngram_range=(6,11), max_features=10)
@@ -90,8 +76,8 @@ if __name__ == '__main__':
     postingData = postingData[['description','industry','company_id','title']].loc[postingData['industry']=='Information Technology & Services']
 
     parser = Parser()
-    print(resumeData.iloc[9]['Resume_str'])
-    skills = parser.skillsetParse(resumeData.iloc[16]['Resume_str'])
+    #print(resumeData.iloc[9]['Resume_str'])
+    skills = parser.skillsetParse(resumeData.iloc[12]['Resume_str'])
     print(skills)
     experience = parser.experienceParse(resumeData.iloc[12]['Resume_str'])
     print(experience)
