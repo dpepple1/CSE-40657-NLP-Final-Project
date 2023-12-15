@@ -224,10 +224,19 @@ def customizing_pipeline_component(nlp: Language):
         for raw_text, entity_offsets in train_data:
             doc = nlp(raw_text)
             print_doc_entities(doc)
+    
+    nlp.to_disk("feature_extraction")
 
 def main():
-    nlp = spacy.load('en_core_web_lg')
-    customizing_pipeline_component(nlp)
+    mode = "parse"
+    if mode == "parse":
+        nlp = spacy.load("feature_extraction")
+    elif mode == "train":
+        nlp = spacy.load('en_core_web_lg')
+        customizing_pipeline_component(nlp, mode)
+    else:
+        nlp = spacy.load('en_core_web_lg')
+    return nlp
 
 
 if __name__ == '__main__':
